@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
+    'contacts.apps.ContactsConfig',
     'accounts.apps.AccountsConfig',
     'django.contrib.humanize',
 
@@ -142,3 +143,9 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
+#email
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'mdandan2019@gmail.com'
+EMAIL_HOST_PASSWORD = 'Dandan@77'
+EMAIL_USE_TLS = True
